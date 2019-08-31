@@ -1,0 +1,13 @@
+group_name	group_label	group_condition
+Severe_BAL_gsms	Asthma (Severe, bronchoalveolar lavage)	disease
+Severe_Epithelial_gsms	Asthma (Severe, epithelial brushing)	disease
+Severe_Spm_gsms	Asthma (Severe, sputum)	disease
+Moderate_BAL_gsms	Asthma (Moderate, bronchoalveolar lavage)	disease
+Moderate_Epithelial_gsms	Asthma (Moderate, epithelial brushing)	disease
+Moderate_Spm_gsms	Asthma (Moderate, sputum)	disease
+Mild_BAL_gsms	Asthma (Mild, bronchoalveolar lavage)	disease
+Mild_Epithelial_gsms	Asthma (Mild, epithelial brushing)	disease
+Mild_Spm_gsms	Asthma (Mild, sputum)	disease
+Healthy_BAL_gsms	Asthma (bronchoalveolar lavage)	healthy
+Healthy_Epithelial_gsms	Asthma (epithelial brushing)	healthy
+Healthy_Spm_gsms	Asthma (sputum)	healthy

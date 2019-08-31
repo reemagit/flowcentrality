@@ -1,0 +1,13 @@
+pandas
+xlrd
+mygene
+networkx
+scipy
+tqdm 
+fisher
+matplotlib
+h5py
+p_tqdm
+GEOparse
+goatools==0.8.12
+sklearn

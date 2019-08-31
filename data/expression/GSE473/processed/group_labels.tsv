@@ -1,0 +1,3 @@
+group_name	group_label	group_condition
+asthma_med_nonatop_gsms	Asthma (mild, non-atopic)	disease
+control_nonatop_gsms	Healthy (non-atopic)	healthy

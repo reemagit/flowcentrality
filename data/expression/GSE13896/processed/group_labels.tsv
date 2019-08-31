@@ -1,0 +1,4 @@
+group_name	group_label	group_condition
+disease_gsms	COPD	disease
+healthy_gsms	Healthy	healthy
+healthy_non_smoker_gsms	Healthy (non smoker)	healthy

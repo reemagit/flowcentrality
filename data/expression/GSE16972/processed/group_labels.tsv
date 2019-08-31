@@ -1,0 +1,3 @@
+group_name	group_label	group_condition
+copd_gsms	COPD	disease
+control_gsms	Healthy	healthy

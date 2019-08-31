@@ -1,0 +1,7 @@
+rdm_a_boxplot_color: 'lightblue'
+rdm_b_boxplot_color: 'lightblue'
+fc_path_boxplot_color: 'lightcoral'
+go_boxplot_width: 0.2
+
+pneumonia_boxplot_color: 'wheat'
+ipf_boxplot_color: 'wheat'

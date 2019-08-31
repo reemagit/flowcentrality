@@ -1,0 +1,3 @@
+group_name	group_label	group_condition
+disease_gsms	Asthma (atopic)	disease
+healthy_gsms	Healthy (non-atopic)	healthy
