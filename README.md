@@ -2,7 +2,7 @@
 
 Source code to reproduce the paper "Discovering the genes mediating the interactions between chronic respiratory diseases in the human interactome", Maiorino et al.
 
-Note: documentation to help on executing the code is still being ultimated.
+Note: documentation is still being preparated.
 
 # Requirements
 
