@@ -356,16 +356,10 @@ process_biobank:
 setup: download_data download_results;
 
 download_data:
-	cd ..
-	wget -r https://zenodo.org/record/4088674/files/data.zip -O data.zip
-	unzip data.zip
-	cd src
+	cd ..;wget -r https://zenodo.org/record/4088674/files/data.zip -O data.zip;unzip data.zip
 
 download_results:
-	cd ..
-	wget -r https://zenodo.org/record/4088914/files/gendata.zip -O gendata.zip
-	unzip gendata.zip
-	cd src
+	cd ..;wget -r https://zenodo.org/record/4088914/files/gendata.zip -O gendata.zip;unzip gendata.zip
 
 setup_env:
 	conda create -n flowcentrality_paper python=3.6.7
