@@ -9,7 +9,14 @@ from os.path import join, exists
 from scipy.stats import mannwhitneyu
 import matplotlib.pyplot as plt
 
-#gm = bio.create_gidmap()
+def create_gidmap():
+    from funcs.gidmap import GeneIDMap
+    gmap = GeneIDMap()
+    gmap.load_table('biomart', 'data/gene_info_genenames.txt', col2idtype_map={'Approved symbol':'symbol','NCBI Gene ID':'entrez','Ensembl gene ID':'ensembl'})
+    #gmap.load_dict('ppi', ms.GENE_ID_CACHE_DATA)
+    return gmap
+
+gm = create_gidmap()
 
 def read_gene_list(filepath):
     return pd.read_csv(filepath, header=None)[0].tolist()
