@@ -353,8 +353,19 @@ process_biobank:
 	python 1_data_processing/process_biobank_genes.py ${BIOBANK_DIR}/copd/raw/COPD-biobank.xlsx ${COPD_BIOBANK}
 
 
+setup: download_data download_results;
 
+download_data:
+	cd ..
+	wget -r https://zenodo.org/record/4088674/files/data.zip?download=1
+	unzip data.zip
+	cd src
 
+download_results:
+	cd ..
+	wget -r https://zenodo.org/record/4088914/files/gendata.zip?download=1
+	unzip gendata.zip
+	cd src
 
 #########################################################
 
@@ -1135,5 +1146,7 @@ ${COPDSEED}: ${COPDSEED_DIR}/interim/copd_genes_03_08_2017.entrezlist ${PPI2016}
 	python 1_data_processing/process_genes.py ${COPDSEED_DIR}/interim/copd_genes_03_08_2017.entrezlist \
 											${COPDSEED} \
 											--net_path ${PPI2016}
+
+
 
 
