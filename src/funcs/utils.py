@@ -1,5 +1,5 @@
 import pandas as pd
-from MyPythonLibs3 import bio
+#from MyPythonLibs3 import bio
 import networkx as nx
 from tqdm.autonotebook import tqdm
 from concurrent.futures import ProcessPoolExecutor, as_completed
@@ -9,7 +9,7 @@ from os.path import join, exists
 from scipy.stats import mannwhitneyu
 import matplotlib.pyplot as plt
 
-gm = bio.create_gidmap()
+#gm = bio.create_gidmap()
 
 def read_gene_list(filepath):
     return pd.read_csv(filepath, header=None)[0].tolist()
