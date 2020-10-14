@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 def create_gidmap():
     from funcs.gidmap import GeneIDMap
     gmap = GeneIDMap()
-    gmap.load_table('biomart', 'data/gene_info_genenames.txt', col2idtype_map={'Approved symbol':'symbol','NCBI Gene ID':'entrez','Ensembl gene ID':'ensembl'})
+    gmap.load_table('biomart', '../data/gene_info_genenames.txt', col2idtype_map={'Approved symbol':'symbol','NCBI Gene ID':'entrez','Ensembl gene ID':'ensembl'})
     #gmap.load_dict('ppi', ms.GENE_ID_CACHE_DATA)
     return gmap
 
