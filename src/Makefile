@@ -357,13 +357,13 @@ setup: download_data download_results;
 
 download_data:
 	cd ..
-	wget -r https://zenodo.org/record/4088674/files/data.zip?download=1
+	wget -r https://zenodo.org/record/4088674/files/data.zip -O data.zip
 	unzip data.zip
 	cd src
 
 download_results:
 	cd ..
-	wget -r https://zenodo.org/record/4088914/files/gendata.zip?download=1
+	wget -r https://zenodo.org/record/4088914/files/gendata.zip -O gendata.zip
 	unzip gendata.zip
 	cd src
 
