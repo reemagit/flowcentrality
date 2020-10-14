@@ -1,5 +1,0 @@
-group_name	group_label	group_condition
-disease_gsms	COPD	disease
-disease_no_history_asthma_gsms	COPD (no history of asthma)	disease
-healthy_gsms	Healthy	healthy
-healthy_no_history_asthma_gsms	Healthy (no history of asthma)	healthy

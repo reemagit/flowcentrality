@@ -1,7 +1,0 @@
-group_name	group_label	group_condition
-asthma_bronch_gsms	Asthma (bronchial epithelia)	disease
-asthma_nasal_gsms	Asthma (nasal epithelia)	disease
-asthma_pbmc_gsms	Asthma (PBMC)	disease
-normal_bronch_gsms	Healthy (bronchial epithelia)	healthy
-normal_nasal_gsms	Healthy (nasal epithelia)	healthy
-normal_pbmc_gsms	Healthy (PBMC)	healthy

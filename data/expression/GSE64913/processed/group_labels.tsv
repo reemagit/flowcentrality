@@ -1,5 +1,0 @@
-group_name	group_label	group_condition
-asthma_cae_gsms	Asthma (central airway epithelium)	disease
-asthma_pae_gsms	Asthma (peripheral airway epithelium)	disease
-healthy_cae_gsms	Healthy (central airway epithelium)	healthy
-healthy_pae_gsms	Healthy (peripheral airway epithelium)	healthy

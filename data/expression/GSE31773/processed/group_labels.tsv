@@ -1,9 +1,0 @@
-group_name	group_label	group_condition
-asthma_severe_gsms	Asthma (severe)	disease
-cd4_non_severe_gsms	Asthma (CD4+ T-cells, non severe)	disease
-cd4_severe_gsms	Asthma (CD4+ T-cells, severe)	disease
-cd8_non_severe_gsms	Asthma (CD8+ T-cells, non severe)	disease
-cd8_severe_gsms	Asthma (CD8+ T-cells, severe)	disease
-healthy_gsms	Healthy	healthy
-cd4_healthy_gsms	Healthy (CD4+ T-cells)	healthy
-cd8_healthy_gsms	Healthy (CD8+ T-cells)	healthy
