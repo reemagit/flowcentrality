@@ -367,6 +367,12 @@ download_results:
 	unzip gendata.zip
 	cd src
 
+setup_env:
+	conda create -n flowcentrality_paper python=3.6.7
+	conda activate flowcentrality_paper
+	pip install -r logs/requirements.txt
+
+
 #########################################################
 
 #             	SEQUENTIAL COEXPRESSION                 #
