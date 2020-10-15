@@ -66,7 +66,7 @@ def create_labels(groups):
 alldata = {}
 allgroups = {}
 maxpvals = {}
-for i,gseid in enumerate(listdir('../data/expression')):
+for i,gseid in enumerate([gseid_ for gseid_ in listdir('../data/expression') if gseid_.startswith('GSE')]):
     maxpvals[gseid] = 0
     alldata[gseid] = {}
     groups = pd.read_csv(join('../data/expression', gseid,'processed/group_labels.tsv'), index_col='group_name', sep='\t')
