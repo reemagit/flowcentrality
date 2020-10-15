@@ -40,7 +40,7 @@ def get_maxpvals(condition):
     alldata = {}
     allgroups = {}
     maxpvals = {}
-    for i,gseid in enumerate(listdir('../data/expression')):
+    for i,gseid in enumerate([gseid_ for gseid_ in listdir('../data/expression') if gseid_.startswith('GSE')]):
         if not gseid.startswith('GSE'):
             continue
         maxpvals[gseid] = 0
