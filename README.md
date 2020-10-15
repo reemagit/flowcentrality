@@ -101,6 +101,4 @@ Assuming that the current directory of the command line is `flowcentrality/src`,
 `plot_GSE57148_boxplot`: Sequential coexpression of asthma-COPD paths in GSE57148 dataset  
 `plot_disease_pairs_go_pvals_horiz;`: Significance scores of sequential coexpression between related disease pairs  
   
-# Flow centrality  
-  
   
